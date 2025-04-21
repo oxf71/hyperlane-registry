@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x66B5af75676C3A00d625Eb07573675BC332D4a1e"
+    chainName: bsc
+    collateralAddressOrDenom: "0x4b55c6a7bdc1c5cd3de03ef7b975990d854f9439"
+    connections:
+      - token: ethereum|bsquared|0x7D15B8949F88339899d36E00e46b4a0dD4a2E18D
+    decimals: 18
+    name: BSquared Token test
+    standard: EvmHypCollateral
+    symbol: B2test
+  - addressOrDenom: "0x7D15B8949F88339899d36E00e46b4a0dD4a2E18D"
+    chainName: bsquared
+    collateralAddressOrDenom: "0x4b55c6a7bdc1c5cd3de03ef7b975990d854f9439"
+    connections:
+      - token: ethereum|bsc|0x66B5af75676C3A00d625Eb07573675BC332D4a1e
+    decimals: 18
+    name: BSquared Token test
+    standard: EvmHypCollateral
+    symbol: B2test
